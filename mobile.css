@@ -1,0 +1,462 @@
+
+
+@font-face {
+    font-family: 'code_pro_bold_lcregular';
+    src: url('fonts/ext/code-pro-bold-lc-webfont.eot');
+    src: url('fonts/ext/code-pro-bold-lc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ext/code-pro-bold-lc-webfont.woff2') format('woff2'),
+         url('fonts/ext/code-pro-bold-lc-webfont.woff') format('woff'),
+         url('fonts/ext/code-pro-bold-lc-webfont.ttf') format('truetype'),
+         url('fonts/ext/code-pro-bold-lc-webfont.svg#code_pro_bold_lcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'code_pro_black_lcregular';
+    src: url('fonts/ext/code-pro-black-lc-webfont.eot');
+    src: url('fonts/ext/code-pro-black-lc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ext/code-pro-black-lc-webfont.woff2') format('woff2'),
+         url('fonts/ext/code-pro-black-lc-webfont.woff') format('woff'),
+         url('fonts/ext/code-pro-black-lc-webfont.ttf') format('truetype'),
+         url('fonts/ext/code-pro-black-lc-webfont.svg#code_pro_black_lcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'code_pro_blackregular';
+    src: url('fonts/ext/code-pro-black-webfont.eot');
+    src: url('fonts/ext/code-pro-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ext/code-pro-black-webfont.woff2') format('woff2'),
+         url('fonts/ext/code-pro-black-webfont.woff') format('woff'),
+         url('fonts/ext/code-pro-black-webfont.ttf') format('truetype'),
+         url('fonts/ext/code-pro-black-webfont.svg#code_pro_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'code_pro_demoregular';
+    src: url('fonts/ext/code-pro-demo-webfont.eot');
+    src: url('fonts/ext/code-pro-demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ext/code-pro-demo-webfont.woff2') format('woff2'),
+         url('fonts/ext/code-pro-demo-webfont.woff') format('woff'),
+         url('fonts/ext/code-pro-demo-webfont.ttf') format('truetype'),
+         url('fonts/ext/code-pro-demo-webfont.svg#code_pro_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'code_pro_lcregular';
+    src: url('fonts/ext/code-pro-lc-webfont.eot');
+    src: url('fonts/ext/code-pro-lc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ext/code-pro-lc-webfont.woff2') format('woff2'),
+         url('fonts/ext/code-pro-lc-webfont.woff') format('woff'),
+         url('fonts/ext/code-pro-lc-webfont.ttf') format('truetype'),
+         url('fonts/ext/code-pro-lc-webfont.svg#code_pro_lcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'code_proregular';
+    src: url('fonts/ext/code-pro-webfont.eot');
+    src: url('fonts/ext/code-pro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ext/code-pro-webfont.woff2') format('woff2'),
+         url('fonts/ext/code-pro-webfont.woff') format('woff'),
+         url('fonts/ext/code-pro-webfont.ttf') format('truetype'),
+         url('fonts/ext/code-pro-webfont.svg#code_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'code_pro_lightregular';
+    src: url('fonts/ext/code-pro-light-webfont.eot');
+    src: url('fonts/ext/code-pro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ext/code-pro-light-webfont.woff2') format('woff2'),
+         url('fonts/ext/code-pro-light-webfont.woff') format('woff'),
+         url('fonts/ext/code-pro-light-webfont.ttf') format('truetype'),
+         url('fonts/ext/code-pro-light-webfont.svg#code_pro_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'code_pro_light_lcregular';
+    src: url('fonts/ext/code-pro-light-lc-webfont.eot');
+    src: url('fonts/ext/code-pro-light-lc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ext/code-pro-light-lc-webfont.woff2') format('woff2'),
+         url('fonts/ext/code-pro-light-lc-webfont.woff') format('woff'),
+         url('fonts/ext/code-pro-light-lc-webfont.ttf') format('truetype'),
+         url('fonts/ext/code-pro-light-lc-webfont.svg#code_pro_light_lcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'code_pro_light_demoregular';
+    src: url('fonts/ext/code-pro-light-demo-webfont.eot');
+    src: url('fonts/ext/code-pro-light-demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ext/code-pro-light-demo-webfont.woff2') format('woff2'),
+         url('fonts/ext/code-pro-light-demo-webfont.woff') format('woff'),
+         url('fonts/ext/code-pro-light-demo-webfont.ttf') format('truetype'),
+         url('fonts/ext/code-pro-light-demo-webfont.svg#code_pro_light_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family: Rockwell;
+	src: url('fonts/Rockwell.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: Rockwell-Bold;
+	src: url('fonts/Rockwell-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+@font-face {
+	font-family: Rockwell-Italic;
+	src: url('fonts/Rockwell-Italic.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+h1 {
+    font-family: 'code_pro_lightregular';
+    font-size: 30px;
+    margin: 0;
+    padding: 15px 0 10px;
+    text-align: center;
+}
+
+p {
+    margin-bottom:0;
+}
+
+button {
+    outline:0;
+}
+
+/*=======mobile intro page=========*/
+
+
+#mobileIntroPage {
+    height:100%;
+    width:100%;
+    background-image: url('mobilebackground.jpg');
+    background-size: cover;
+    display:table;
+    padding:0 10px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#mobileIntroPage h1 {
+    margin-bottom: 30px;
+    padding:0;
+}
+
+p.author {
+  font-family: 'code_pro_lightregular';
+}
+p.authorTitle {
+  font-family: 'code_pro_bold_lcregular';
+  font-size: 11px;
+}
+
+/*#introFooter {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    text-align: right;
+    width: 100%;
+    padding: 10px;
+}*/
+
+#introFooter img {
+    height: 34px;
+    right: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.lineBreak {
+    margin-bottom: 20px;
+}
+
+#poem {
+    text-align: center;
+    font-family: 'code_pro_lcregular';
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+
+/*=======mobile content=========*/
+.mobileVideoContainer {
+	display:none;
+}
+
+.showContainer {
+    display: block;
+}
+
+.mobileBtn, #enterBtn {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #999;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'code_pro_bold_lcregular';
+  text-transform: uppercase;
+  background-color: #f0f0f0;
+}
+
+.mobileBtn:hover, .mobileBtn:focus, .mobileBtn:active {
+    background-color:#E6E5E5;
+}
+
+#enterBtn {
+    width:170px;
+    margin: 30px 0 0;
+}
+
+
+#mobileContent {
+  padding: 0 10px;
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  width:100%;
+}
+
+#arrowWrapper {
+    width: 50px;
+    height: 58px;
+    line-height: 58px;
+    position: absolute;
+    left: 0;
+    border-right: 1px solid #f0f0f0;
+}
+
+.arrowLeft {
+    font-size: 30px;
+    margin: 15px 20px;
+}
+
+#headingWrapper {
+    padding-left: 50px;
+}
+
+video {
+	width:100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -90px;
+}
+
+.videoImageWrapper {
+    position: relative;
+    height: 153px;
+    display: table;
+    margin:0 auto 20px;
+}
+
+.videoImageOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.displayTableCell {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.drawRectangularBtn {
+    border: 2px solid rgba(255,255,255,0.2);
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    background-color: transparent;
+    font-family: 'code_pro_bold_lcregular';
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+h6 {
+    font-size: 12px;
+    font-family: 'Rockwell';
+    color: #666;
+    margin:7px 0 0;
+    text-align:center;
+}
+
+#videoContainer {
+    position:fixed;
+    background-color:#000;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:100;
+    display:none;
+}
+
+#closeIcon {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.divider {
+    height: 1px;
+    background-color: #f0f0f0;
+    margin: 0 -10px 15px -10px;
+}
+
+h4 {
+    font-family: 'code_pro_lightregular';
+    font-size: 16px;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'code_pro_bold_lcregular';
+    font-size: 14px;
+}
+
+.contact {
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.mobileVideoContainer img {
+    height:153px;
+}
+
+.email {
+  text-decoration: underline;
+}
+
+
+/*ipad*/
+@media only screen and (min-width:600px) {
+
+    #mobileIntroPage h1 {
+        margin-bottom: 75px;
+        font-size: 50px;
+    }
+
+    #poem {
+        font-size: 20px;
+    }
+
+    #enterBtn {
+        width: 250px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .mobileBtn {
+        width: 100%;
+        height: 60px;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 60px;
+        margin: 0 auto 20px;
+        font-family: 'code_pro_bold_lcregular';
+        text-transform: uppercase;
+        background-color: transparent;
+    }
+
+    h1 {
+        font-size:50px;
+    }
+
+    .mobileVideoContainer img {
+        height:333px;
+    }
+
+    .videoImageWrapper {
+        height: 333px;
+    }
+
+    .drawRectangularBtn {
+        height:60px;
+        line-height:60px;
+        width:250px;
+        font-size:14px;
+    }
+
+    h4 {
+        font-size:26px;
+    }
+
+    h5 {
+        font-size:20px;
+    }
+
+    h6 {
+        font-size:14px;
+    }
+
+    .arrowLeft {
+        font-size: 30px;
+        margin: 25px 20px;
+    }
+
+    #arrowWrapper {
+        width: 60px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .arrowLeft {
+        font-size: 30px;
+        margin: 25px 25px;
+    }
+
+}
+
+
+
+
+
+
+

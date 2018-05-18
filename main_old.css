@@ -1,0 +1,633 @@
+
+@font-face {
+    font-family: 'code_pro_bold_lcregular';
+    src: url('code-pro-bold-lc-webfont.eot');
+    src: url('code-pro-bold-lc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('code-pro-bold-lc-webfont.woff2') format('woff2'),
+         url('code-pro-bold-lc-webfont.woff') format('woff'),
+         url('code-pro-bold-lc-webfont.ttf') format('truetype'),
+         url('code-pro-bold-lc-webfont.svg#code_pro_bold_lcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'code_pro_black_lcregular';
+    src: url('code-pro-black-lc-webfont.eot');
+    src: url('code-pro-black-lc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('code-pro-black-lc-webfont.woff2') format('woff2'),
+         url('code-pro-black-lc-webfont.woff') format('woff'),
+         url('code-pro-black-lc-webfont.ttf') format('truetype'),
+         url('code-pro-black-lc-webfont.svg#code_pro_black_lcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'code_pro_blackregular';
+    src: url('code-pro-black-webfont.eot');
+    src: url('code-pro-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('code-pro-black-webfont.woff2') format('woff2'),
+         url('code-pro-black-webfont.woff') format('woff'),
+         url('code-pro-black-webfont.ttf') format('truetype'),
+         url('code-pro-black-webfont.svg#code_pro_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'code_pro_demoregular';
+    src: url('code-pro-demo-webfont.eot');
+    src: url('code-pro-demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('code-pro-demo-webfont.woff2') format('woff2'),
+         url('code-pro-demo-webfont.woff') format('woff'),
+         url('code-pro-demo-webfont.ttf') format('truetype'),
+         url('code-pro-demo-webfont.svg#code_pro_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'code_pro_lcregular';
+    src: url('code-pro-lc-webfont.eot');
+    src: url('code-pro-lc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('code-pro-lc-webfont.woff2') format('woff2'),
+         url('code-pro-lc-webfont.woff') format('woff'),
+         url('code-pro-lc-webfont.ttf') format('truetype'),
+         url('code-pro-lc-webfont.svg#code_pro_lcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'code_proregular';
+    src: url('code-pro-webfont.eot');
+    src: url('code-pro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('code-pro-webfont.woff2') format('woff2'),
+         url('code-pro-webfont.woff') format('woff'),
+         url('code-pro-webfont.ttf') format('truetype'),
+         url('code-pro-webfont.svg#code_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'code_pro_lightregular';
+    src: url('code-pro-light-webfont.eot');
+    src: url('code-pro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('code-pro-light-webfont.woff2') format('woff2'),
+         url('code-pro-light-webfont.woff') format('woff'),
+         url('code-pro-light-webfont.ttf') format('truetype'),
+         url('code-pro-light-webfont.svg#code_pro_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'code_pro_light_lcregular';
+    src: url('code-pro-light-lc-webfont.eot');
+    src: url('code-pro-light-lc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('code-pro-light-lc-webfont.woff2') format('woff2'),
+         url('code-pro-light-lc-webfont.woff') format('woff'),
+         url('code-pro-light-lc-webfont.ttf') format('truetype'),
+         url('code-pro-light-lc-webfont.svg#code_pro_light_lcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'code_pro_light_demoregular';
+    src: url('code-pro-light-demo-webfont.eot');
+    src: url('code-pro-light-demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('code-pro-light-demo-webfont.woff2') format('woff2'),
+         url('code-pro-light-demo-webfont.woff') format('woff'),
+         url('code-pro-light-demo-webfont.ttf') format('truetype'),
+         url('code-pro-light-demo-webfont.svg#code_pro_light_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face {
+	font-family: Code-Pro-Black-LC;
+	src: url("fonts/Code-Pro-Black-LC.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Code-Pro-Black;
+	src: url("fonts/Code-Pro-Black.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Code-Pro-Bold-LC;
+	src: url("fonts/Code-Pro-Bold-LC.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Code-Pro-Demo;
+	src: url("fonts/Code-Pro-Demo.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Code-Pro-LC;
+	src: url("fonts/Code-Pro-LC.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Code-Pro-Light-Demo;
+	src: url("fonts/Code-Pro-Light-Demo.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Code-Pro-Light-LC;
+	src: url("fonts/Code-Pro-Light-LC.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Code-Pro-Light;
+	src: url("fonts/Code-Pro-Black-LC.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Code-Pro;
+	src: url("fonts/Code-Pro.otf") format("opentype");
+}*/
+
+@font-face {
+	font-family: Rockwell;
+	src: url('fonts/Rockwell.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family: Rockwell-Bold;
+	src: url('fonts/Rockwell-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+@font-face {
+	font-family: Rockwell-Italic;
+	src: url('fonts/Rockwell-Italic.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+	min-height:100%;
+}
+
+button {
+	outline:0;
+}
+
+h2 {
+	font-family: 'Code-Pro-Bold-LC';
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 56px;
+}
+
+h3 {
+	font-size: 16px;
+    font-family: 'Rockwell';
+    color: #fff;
+    margin:10px;
+}
+
+h4 {
+	font-family: 'Code Pro Light';
+    font-size: 34px;
+    line-height:30px;
+    margin:0;
+}
+
+h5 {
+    font-size: 34px;
+    line-height:30px;
+    font-family: 'Code Pro Bold';
+    margin:0;
+}
+
+h6 {
+    font-size: 12px;
+    font-family: 'Rockwell';
+    color: #666;
+    margin:7px 0 0;
+}
+
+#sectionsWrapper {
+	height:100%;
+	position:relative;
+}
+
+.section {
+	width:100%;
+	background-size:cover;
+	background-attachment: fixed;
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 962px;
+    opacity:1;
+    -webkit-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+.sectionVideo {
+    display: table;
+    height: 100%;
+    width: 70%;
+    position:fixed;
+}
+
+.sectionContainer {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#utecSection {
+	background-image: url(utec/backgroundimage.jpg);
+	z-index:20;
+}
+
+#niveaSection {
+	background-image: url(nivea/backgroundimage.jpg);
+	z-index:19;
+}
+
+#valsparSection {
+	background-image: url(valspar/backgroundimage.jpg);
+	z-index:18;
+}
+
+#cnaSection {
+	background-image: url(cna/backgroundimage.jpg);
+	z-index:17;
+}
+
+#cokeSection {
+	background-image: url(coke/backgroundimage.jpg);
+	z-index:16;
+}
+#spcaSection {
+	background-image: url(spca/backgroundimage.jpg);
+	z-index:15;
+}
+#engenSection {
+	background-image: url(engen/backgroundimage.jpg);
+	z-index:14;
+}
+#hpSection {
+	background-image: url(hp/backgroundimage.jpg);
+	z-index:13;
+}
+
+.sectionLogo {
+	width:180px;
+	margin-bottom:30px;
+}
+
+.videoSidebar {
+	padding-top:20px;  
+	text-align:left;
+}
+
+.videoImageWrapper {
+	margin-top:15px;
+	position:relative;
+	display:table;
+	width:100%;
+	height:155px;
+	/*opacity:0;*/
+}
+
+/*#utecSidebar .videoImageWrapper {
+	opacity:1;
+}*/
+
+.videoImageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: table;
+    text-align: center;
+}
+
+.videoSidebar img {
+    height:155px;
+}
+
+.displayTableCell {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.slideUp {
+	-webkit-transform: translate3d(0, -100%,0);
+	transform: translate3d(0,-100%,0);
+}
+
+.heightUp {
+	height:100%;
+}
+
+#introSectionWrapper {
+	width: 433px;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    background-color: #fff;
+    z-index: 30;
+}
+
+#introSection {
+    background-color: #fff;
+}
+
+#cutCornerImage {
+	position: absolute;
+    bottom: -73px;
+    width: 100%;
+    left: 0;
+}
+#utecSidebar {
+	z-index:20;
+}
+
+#niveaSidebar {
+	z-index:19;
+}
+
+.sidebarContainer {
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	position: absolute;
+    left: 78px;
+    top: 55px;
+    right:78px;
+}
+
+#utecSidebar .topTextSidebar {
+	opacity:1;
+}
+
+.topTextSidebar {
+	text-align:left;
+	opacity:0;
+}
+
+.showSidebar .topTextSidebar {
+	opacity:1;
+}
+
+.hideSidebar .topTextSidebar {
+	opacity:0;
+}
+
+.showSidebar {
+	opacity:1 !important;
+	z-index:21 !important;
+}
+.hideSidebar {
+	opacity:0; !important;
+	z-index:19;
+}
+
+.showSidebar .videoImageWrapper {
+	opacity:1;
+	-webkit-transition: all 1.5s ease-out 0.3s;
+	transition: all 1.5s ease-out 0.3s;
+}
+/*.showSidebar .videoImageWrapper:nth-child(2) {
+	opacity:1;
+	-webkit-transition: all 0.5s ease-out 0.3s;
+	transition: all 0.5s ease-out 0.3s;
+}
+.showSidebar .videoImageWrapper:nth-child(3) {
+	opacity:1;
+	-webkit-transition: all 0.5s ease-out 0.6s;
+	transition: all 0.5s ease-out 0.6s;
+}
+*/
+
+.hideSidebar .videoImageWrapper {
+	opacity:0;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.videoSidebar .drawRectangularBtn {
+	height:50px;
+	line-height:50px;
+	width:150px;
+	font-size:11px;
+	margin-top:0;
+}
+
+
+
+
+
+
+#breadcrumbBar {
+	position: fixed;
+    left: 50px;
+    top: 50%;
+    width: 20px;
+    z-index: 50;
+    margin-top: -211px;
+}
+
+.circle {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.selectedCircle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position:relative;
+    border:none;
+    -webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	cursor:pointer;
+}
+
+.current {
+	border:1px solid rgba(255,255,255,0.5);
+}
+
+#circle9 {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.drawRectangularBtn {
+    border: 2px solid rgba(255,255,255,0.2);
+    height: 70px;
+    line-height: 70px;
+    padding: 0 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    background-color: transparent;
+    font-family: 'Code Pro Bold';
+    color: #fff;
+    margin-top:30px;
+    letter-spacing: 0.5px;
+}
+
+.btnTop, .btnRight, .btnBottom, .btnLeft {
+	opacity:0;
+}
+
+.drawRectangularBtn:hover {
+	border:2px solid transparent;
+}
+
+.drawRectangularBtn:hover .btnTop {
+	position:absolute;
+	left:0;
+	top:0;
+	height:2px;
+	background-color: #fff;
+	-webkit-animation: animateWidth 0.2s forwards; /* Safari 4+ */
+  	-moz-animation:    animateWidth 0.2s forwards; /* Fx 5+ */
+  	-o-animation:      animateWidth 0.2s forwards; /* Opera 12+ */
+  	animation:         animateWidth 0.2s forwards; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes animateWidth {
+  0%   { opacity: 0; width:0;}
+  100% { opacity: 1; width:100%;}
+}
+@-moz-keyframes animateWidth {
+  0%   { opacity: 0; width:0;}
+  100% { opacity: 1; width:100%;}
+}
+@-o-keyframes animateWidth {
+  0%   { opacity: 0; width:0;}
+  100% { opacity: 1; width:100%;}
+}
+@keyframes animateWidth {
+  0%   { opacity: 0; width:0;}
+  100% { opacity: 1; width:100%;}
+}
+
+
+.drawRectangularBtn:hover .btnRight {
+	position:absolute;
+	right:0;
+	top:0;
+	width:2px;
+	background-color: #fff;
+	-webkit-animation: animateDown 0.2s 0.2s forwards; /* Safari 4+ */
+  	-moz-animation:    animateDown 0.2s 0.2s forwards; /* Fx 5+ */
+  	-o-animation:      animateDown 0.2s 0.2s forwards; /* Opera 12+ */
+  	animation:         animateDown 0.2s 0.2s forwards; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes animateDown {
+  0%   { opacity: 0; height:0;}
+  100% { opacity: 1; height:100%;}
+}
+@-moz-keyframes animateDown {
+  0%   { opacity: 0; height:0;}
+  100% { opacity: 1; height:100%;}
+}
+@-o-keyframes animateDown {
+  0%   { opacity: 0; height:0;}
+  100% { opacity: 1; height:100%;}
+}
+@keyframes animateDown {
+  0%   { opacity: 0; height:0;}
+  100% { opacity: 1; height:100%;}
+}
+
+
+.drawRectangularBtn:hover .btnBottom {
+	position:absolute;
+	right:0;
+	bottom:0;
+	height:2px;
+	background-color: #fff;
+	-webkit-animation: animateWidth 0.2s 0.4s forwards; /* Safari 4+ */
+  	-moz-animation:    animateWidth 0.2s 0.4s forwards; /* Fx 5+ */
+  	-o-animation:      animateWidth 0.2s 0.4s forwards; /* Opera 12+ */
+  	animation:         animateWidth 0.2s 0.4s forwards; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes animateWidth {
+  0%   { opacity: 0; width:0;}
+  100% { opacity: 1; width:100%;}
+}
+
+@-moz-keyframes animateWidth {
+  0%   { opacity: 0; width:0;}
+  100% { opacity: 1; width:100%;}
+}
+@-o-keyframes animateWidth {
+  0%   { opacity: 0; width:0;}
+  100% { opacity: 1; width:100%;}
+}
+@keyframes animateWidth {
+  0%   { opacity: 0; width:0;}
+  100% { opacity: 1; width:100%;}
+}
+
+.drawRectangularBtn:hover .btnLeft {
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:2px;
+	background-color: #fff;
+	-webkit-animation: animateDown 0.2s 0.6s forwards; /* Safari 4+ */
+  	-moz-animation:    animateDown 0.2s 0.6s forwards; /* Fx 5+ */
+  	-o-animation:      animateDown 0.2s 0.6s forwards; /* Opera 12+ */
+  	animation:         animateDown 0.2s 0.6s forwards; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes animateDown {
+  0%   { opacity: 0; height:0;}
+  100% { opacity: 1; height:100%;}
+}
+@-moz-keyframes animateDown {
+  0%   { opacity: 0; height:0;}
+  100% { opacity: 1; height:100%;}
+}
+@-o-keyframes animateDown {
+  0%   { opacity: 0; height:0;}
+  100% { opacity: 1; height:100%;}
+}
+@keyframes animateDown {
+  0%   { opacity: 0; height:0;}
+  100% { opacity: 1; height:100%;}
+}

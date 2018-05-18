@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FCB Global - Welcome to FCB </title>
+        <meta name="description" content="FCB (Foote, Cone & Belding) is filled with a diverse and passionate group of thinkers, creators, technologists and storytellers devoted to creating buzzworthy ideas that change consumer behavior.
+">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link id="stylesheet" rel="stylesheet" href="mobile.css">
+
+		<!--==============Favicon=================-->
+		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">   	
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+	        <div id="mobileIntroPage">
+	        	<div class="displayTableCell">
+		        	<h1>Higher Purpose</h1>
+			<!-- 		<div class="divider"></div> -->
+					<div id="poem">
+						<div class="lineBreak">
+							<p>"To achieve a higher purpose</p>
+							<p>A brand must live among the people</p>
+							<p>With evidence of deeds, not just promises.</p>
+						</div>
+						 
+						 <div class="lineBreak">
+							<p>It's these deeds that make the stories</p>
+							<p>that FCB tells not only unique and compelling</p>
+							<p>but also credible and trusted."</p>
+						 </div>
+
+						 <div class="lineBreak">
+						 	<p class="author"> Nigel Jones</p>
+						 	<p class="authorTitle">Global Chief Strategy Officer</p>
+						 </div>
+
+					</div>
+
+					<button id="enterBtn" onclick="enterWebsite();">
+						View our stories
+						<div class="btnTop"></div>
+						<div class="btnRight"></div>
+						<div class="btnBottom"></div>
+						<div class="btnLeft"></div>
+					</button>
+
+					<div id="introFooter">
+						<img src="fcblogo.png" alt="FCB logo"/>
+					</div>
+				</div>
+	        </div>
+
+
+		<div id="mobileContent">
+			<div id="videoContainer">
+				<i id="closeIcon" class="fa fa-times" onclick="closeVideoContainer();"></i>
+			</div>
+			<div id="pageTop" onclick="backToIntro()";>
+				<div id="arrowWrapper">
+					<i class="arrowLeft fa fa-angle-left"></i>
+				</div>
+				<div id="headingWrapper">
+					<h1>Higher Purpose</h1>
+				</div>
+			</div>
+	
+		<div class="divider"></div>
+	        <div id="mobileVideoContent">
+	        <!--=========Coke=============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">Coke</div>
+					<div class="mobileVideoContainer showContainer">
+
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('cokeVideoWrapper', 'cokeVideo1', 'coke', 'Rainbow');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="cocacola/backgroundimage.jpg"/>
+							<!-- <img src="cocacola/video1_276_153.jpg"/> -->
+							<h6>Rainbow Nation</h6>
+						</div>
+					</div>
+				</div>
+
+				<!--=========Valspar=============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">Valspar</div>
+					<div class="mobileVideoContainer">
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('valsparVideoWrapper', 'valsparVideo1', 'valspar', 'colorforall');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="valspar/backgroundimage.jpg"/>
+							<!-- <img src="valspar/video1_276_153.jpg"/> -->
+							<h6>Color for all</h6>
+						</div>
+					</div>
+				</div>
+
+				<!--=========SALAAM============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">Salaam Bombay</div>
+					<div class="mobileVideoContainer">
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('salaamVideoWrapper', 'salaamVideo1', 'salaam', 'resume');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="salaam/backgroundimage.jpg"/>
+							<!-- <img src="salaam/video1_276_153.jpg"/> -->
+							<h6>Project Resume</h6>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!--=========Nivea=============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">Nivea</div>
+					<div class="mobileVideoContainer ">
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('niveaVideoWrapper', 'niveaVideo1', 'nivea', 'protectionband');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="nivea/backgroundimage.jpg"/>
+							<!-- <img src="nivea/video1_276_153.jpg"/> -->
+							<h6>Protection Band</h6>
+						</div>
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('niveaVideoWrapper', 'niveaVideo2', 'nivea', 'doll');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="nivea/doll.jpg"/>
+						<!-- 	<img src="nivea/video2_276_153.jpg"/> -->
+							<h6>Doll</h6>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!--=========Utec=============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">Utec</div>
+					<div class="mobileVideoContainer">
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('utecVideoWrapper', 'utecVideo1','utec', 'potableWater');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="utec/backgroundimage.jpg"/>
+							<!-- <img src="utec/video1_276_153.jpg"/> -->
+							<h6>Potable Water</h6>
+						</div>
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('utecVideoWrapper', 'utecVideo2','utec', 'purifyingBillboard');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="utec/billboard.jpg"/>
+							<!-- <img src="utec/video2_276_153.jpg"/> -->
+							<h6>Purifying Billboard</h6>
+						</div>
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('utecVideoWrapper', 'utecVideo3', 'utec', 'wifiBikes');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="utec/wifibike.jpg"/>
+							<!-- <img src="utec/video3_276_153.jpg"/> -->
+							<h6>Wifi Bikes</h6>
+						</div>
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('utecVideoWrapper', 'utecVideo4', 'utec', 'airOrchard');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+								<img src="utec/airorchard.jpg"/>
+						<!-- 	<img src="utec/video4_276_153.jpg"/> -->
+							<h6>Air Orchard</h6>
+						</div>
+					</div>
+				</div>
+
+				<!--=========Engen=============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">Engen</div>
+					<div class="mobileVideoContainer">
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('engenVideoWrapper', 'engenVideo1', 'engen', 'Fire_Blanket2');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="engen/backgroundimage.jpg"/>
+							<!-- <img src="engen/video1_276_153.jpg"/> -->
+							<h6>Fire Blanket</h6>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+				<!--=========CNA=============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">CNA</div>
+					<div class="mobileVideoContainer">
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('cnaVideoWrapper', 'cnaVideo1', 'cna', 'speakingexchange');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="cna/backgroundimage.jpg"/>
+							<!-- <img src="cna/video1_276_153.jpg"/> -->
+							<h6>Speaking Exchange</h6>
+						</div>
+					</div>
+				</div>
+
+				<!--=========SKY=============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">Sky HDTV</div>
+					<div class="mobileVideoContainer">
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('skyVideoWrapper', 'skyVideo1', 'sky', 'theworldinhd');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="sky/backgroundimage.jpg"/>
+							<h6>The world in high definition</h6>
+						</div>
+					</div>
+				</div>
+
+				<!--=========SPCA=============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">SPCA</div>
+					<div class="mobileVideoContainer">
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('spcaVideoWrapper', 'spcaVideo1', 'spca', 'drivingdogs');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<!-- <img src="spca/video1_276_153.jpg"/> -->
+							<img src="spca/backgroundimage.jpg"/>
+							<h6>Driving Dogs</h6>
+						</div>
+					</div>
+				</div>
+
+				<!--=========POPCORN============-->
+			<!-- 	<div class="mobileSection">
+					<div class="mobileBtn">ACT II</div>
+					<div class="mobileVideoContainer">
+						<div class="videoImageWrapper">
+							<div class="videoImageOverlay">
+								<div class="displayTableCell">
+									<button class="drawRectangularBtn" onclick="playVideo('popcornVideoWrapper', 'popcornVideo1', 'popcorn', 'popcorn');">
+										View story
+										<div class="btnTop"></div>
+										<div class="btnRight"></div>
+										<div class="btnBottom"></div>
+										<div class="btnLeft"></div>
+									</button>
+								</div>
+							</div>
+							<img src="popcorn/backgroundimage.jpg"/> -->
+							<!-- <img src="popcorn/video1_276_153.jpg"/> -->
+			<!-- 				<h6>Bucket Full of Joy</h6>
+						</div>
+					</div>
+				</div> -->
+
+				
+
+				<!--=========Contact============-->
+				<div class="mobileSection">
+					<div class="mobileBtn">Contact</div>
+					<div id="contactContainer" class="mobileVideoContainer">
+						<div class="videoImageWrapper">
+							<div class="contact">
+								<h4>Carter Murray</h4>
+								<h5>World wide CEO</h5>
+								<a class="email" href="mailto:carter.murray@fcb.com" target="_blank"><h5>carter.murray@fcb.com</h5></a>
+								<a href="tel://1-212-885-2929"><h5>+1 212 885 2929</h5></a>
+							</div>
+							<div class="contact">
+								<h4>Nigel Jones</h4>
+								<h5>Global Chief Strategy Officer</h5>
+								<a class="email" href="mailto:nigel.jones@fcb.com" target="_blank"><h5>nigel.jones@fcb.com</h5></a>
+								<a href="tel://44-7979-808771"><h5>+44 7979 808771</h5></a>
+							</div>
+							<div class="contact">
+								<h4>Chris Shumaker</h4>
+								<h5>Chief Marketing Officer</h5>
+								<a class="email" href="mailto:chris.shumaker@fcb.com" target="_blank" ><h5>chris.shumaker@fcb.com</h5></a>
+								<a href="tel://1-212-885-3389"><h5>+1 212 885 3389</h5></a>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="mobile.js"></script>
+		<!--add google analytics script-->
+	
+
+		<script></script>
+		
+    </body>
+</html>
+
+
